@@ -153,3 +153,107 @@ header {
   margin: 1rem auto;
   text-align: center;
 }
+
+.creations {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.creations h3 {
+  text-align: center;
+}
+
+.images h4 {
+  width: 40%;
+  color: hsl(0, 0%, 100%);
+}
+
+/* Images Section */
+.images {
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 {
+  background: url(../images/mobile/image-deep-earth.jpg);
+  background-size: cover;
+}
+
+.box2 {
+  background: url(../images/mobile/image-night-arcade.jpg);
+  background-size: cover;
+}
+
+.box3 {
+  background: url(../images/mobile/image-soccer-team.jpg);
+  background-size: cover;
+}
+
+.box4 {
+  background: url(../images/mobile/image-grid.jpg);
+  background-size: cover;
+}
+
+.box5 {
+  background: url(../images/mobile/image-from-above.jpg);
+  background-size: cover;
+}
+
+.box6 {
+  background: url(../images/mobile/image-pocket-borealis.jpg);
+  background-size: cover;
+}
+
+.box7 {
+  background: url(../images/mobile/image-curiosity.jpg);
+  background-size: cover;
+}
+
+.box8 {
+  background: url(../images/mobile/image-fisheye.jpg);
+  background-size: cover;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8 {
+  height: 9rem;
+  margin-bottom: 2rem;
+  padding: 4rem 0 0 1rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  padding: 0.75rem 2rem;
+  border: solid 2px hsl(0, 0%, 0%);
+  margin: 0.75rem auto;
+}
+
+.button-container-desktop {
+  visibility: hidden;
+}
+
+.button-container-desktop a {
+  text-decoration: none;
+}
+
+.button-container-mobile {
+  padding: 0 0 0 4rem;
+}
+
+.button-container-mobile button {
+  width: 75%;
+}
