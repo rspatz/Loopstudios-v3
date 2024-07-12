@@ -104,6 +104,158 @@ header {
 }
 
 /* Mobile Navigation */
+.navigation-icon {
+  position: relative;
+  margin-top: 3.5rem;
+}
+
+.navigation-icon,
+.navigation-icon::before,
+.navigation-icon::after {
+  width: 2rem;
+  height: 1.75px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+}
+
+.navigation-icon::before,
+.navigation-icon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.navigation-icon::before {
+  top: -0.8rem;
+}
+
+.navigation-icon::after {
+  top: 0.8rem;
+}
+
+.navigation-button:hover .navigation-icon::before {
+  top: -1rem;
+}
+
+.navigation-button:hover .navigation-icon::after {
+  top: 1rem;
+}
+
+.navigation-nav:checked + .navigation-navbutton .navigation-navicon {
+  background-color: transparent;
+}
+
+.navigation-nav:checked + .navigation-navbutton .navigation-icon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.navigation-nav:checked + .navigation-navbutton .navigation-icon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+
+.navigation-button {
+  position: fixed;
+  z-index: 2000;
+  text-align: center;
+  cursor: pointer;
+  top: 1rem;
+  right: 3rem;
+}
+
+.navigation-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+/* Navigation Link */
+.navigation-item {
+  margin: 1rem;
+}
+
+/* Hides Mobile Navigation */
+.navigation-link:link,
+.navigation-link:visited {
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding: 0 2rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-size: 220%;
+  transition: all 0.4s;
+}
+
+.navigation-link:link span,
+.navigation-link:visited span {
+  margin-right: 1.5rem;
+}
+
+.navigation-link:hover,
+.navigation-link:active {
+  background-position: 100%;
+  color: hsl(0, 0%, 55%);
+  transform: translateX(1rem);
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* Checkbox */
+.navigation-checkbox {
+  display: none;
+}
+
+/* Navigation Background */
+/* CHANGE COLOR OF HAMBURGER BACKGROUND */
+.navigation-background {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 6.5rem;
+  right: 0;
+  background: hsl(0, 0%, 0%);
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.navigation-background {
+  top: 2.75rem;
+  right: 2.25rem;
+}
+
+.navigation-checkbox:checked ~ .navigation-background {
+  transform: scale(80);
+}
+
+.navigation-checkbox:checked ~ .navigation-nav {
+  opacity: 1;
+  width: 100%;
+}
+
+.navigation-nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* END Mobile Navigation */
 
 /* Title */
 .title-background {
