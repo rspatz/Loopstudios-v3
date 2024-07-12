@@ -4,22 +4,70 @@
   box-sizing: border-box;
 }
 
+/* Colors */
+:root {
+  --very-dark-grey: #101010;
+  --white: #fff;
+}
+
 /***** FONTS *****/
 
 @font-face {
   font-family: 'Alata-Regular';
-  src: url('../fonts/alata/'Alata-Regular.ttf');
+  src: url('../fonts/alata/Alata-Regular.ttf');
   format: ('true-type');
 }
 
 @font-face {
   font-family: 'JosefinSans-Thin';
-  src: url('../fonts/josefin-sans/'JosefinSans-Thin.ttf');
+  src: url('../fonts/josefin-sans/JosefinSans-Thin.ttf');
   format: ('true-type');
 }
 
 @font-face {
   font-family: 'JosefinSans-Regular';
-  src: url('../fonts/josefin-sans/'JosefinSans-Regular.ttf');
+  src: url('../fonts/josefin-sans/JosefinSans-Regular.ttf');
   format: ('true-type');
+}
+
+/* Base Styles */
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: 'JosefinSans-Thin';
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10rem;
+  color: var(--white);
+}
+
+h2 {
+  font-family: 'JosefinSans-Thin';
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--very-dark-grey);
+}
+
+h3 {
+  font-family: 'JosefinSans-Thin';
+  font-size: 2.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+}
+
+h4 {
+  font-family: 'JosefinSans-Thin';
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  color: var(--very-dark-grey);
+}
+
+h5 {
+  font-family: 'JosefinSans-Thin';
+  font-size: 1.25rem;
+  color: var(--very-dark-grey);
 }
