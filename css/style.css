@@ -409,3 +409,65 @@ button {
 .button-container-mobile button {
   width: 75%;
 }
+
+/* Footer */
+footer {
+  height: 35rem;
+  padding: 0;
+  background: hsl(0, 0%, 0%);
+}
+
+.footer-image .logo-image {
+  width: 45%;
+  margin: 2.75rem 0 0 7rem;
+}
+
+.footer-nav ul {
+  width: 15%;
+  margin: 2rem auto;
+  line-height: 3rem;
+}
+
+.footer-nav a {
+  font-family: 'Alata-Regular';
+  font-size: 1.15rem;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: hsl(0, 0%, 55%);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media {
+  letter-spacing: 0.75rem;
+  width: 40%;
+  margin: 2rem auto;
+}
+
+/* Copyright */
+.copyright {
+  font-family: 'Alata-Regular';
+  width: 70%;
+  margin: 0 auto;
+}
+
+.copyright h5 {
+  font-size: 1rem;
+  letter-spacing: 0.01rem;
+  color: hsl(0, 0%, 55%);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
