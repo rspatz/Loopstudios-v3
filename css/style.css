@@ -473,3 +473,38 @@ footer {
 .attribution a {
   color: var(--dark-blue);
 }
+
+/* Widescreen Media Queries */
+@media only screen and (min-width: 1200px) {
+  /* Header */
+  header {
+    max-width: 100%;
+    height: 40rem;
+    padding: 2.25rem;
+    margin-bottom: 0;
+    background: url(../images/desktop/image-hero.jpg);
+    background-size: cover;
+  }
+
+  .title-container {
+    margin: 0;
+  }
+
+  .title-background {
+    width: 45%;
+    margin: 6rem;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    margin-left: 2rem;
+  }
+
+  .logo-image {
+    width: 15%;
+    margin: 0 0 0 6rem;
+    position: relative;
+  }
+}
