@@ -579,4 +579,38 @@ footer {
   .navigation-nav {
     position: relative;
   }
+
+  /* About Section */
+  .about {
+    height: 20rem;
+    margin: 5rem 0 18rem 0;
+  }
+
+  .about-img {
+    width: 50%;
+    margin: 3rem 1.3rem 3rem 1.5rem; /* Could not get 'margin: 3rem auto' to center image */
+    position: relative;
+    z-index: 1;
+  }
+
+  .about-header {
+    width: 42%;
+    margin: -18rem 0 5rem 35rem; /* Why -18rem? */
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    position: relative;
+    z-index: 10;
+  }
+
+  .about-header h2 {
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+  }
+
+  .about p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-left: 4.5rem;
+  }
 }
