@@ -228,7 +228,8 @@ header {
   position: fixed;
   top: 6.5rem;
   right: 0;
-  background: var(--dark-grey);
+  background: var(--very-dark-grey);
+  opacity: 75%;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
@@ -286,7 +287,7 @@ header {
 
 .about-img {
   width: 90%;
-  margin: 3rem 0 3rem 1.3rem; /* Could not get 'margin: 3rem auto' to center image */
+  margin: 3rem 0 3rem 1.3rem;
 }
 
 .about-header {
@@ -303,7 +304,7 @@ header {
   font-size: 1.15rem;
   line-height: 2rem;
   width: 85%;
-  color: var(--light-grey);
+  color: var(--very-dark-grey);
   margin: 1rem auto;
   text-align: center;
 }
@@ -432,8 +433,7 @@ footer {
 
 .footer-nav a {
   font-family: 'Alata-Regular';
-  font-size: 1.15rem;
-  background-color: var(--white);
+  font-size: 1.25rem;
   text-decoration: none;
 }
 
@@ -591,7 +591,7 @@ footer {
   /* About Section */
   .about {
     height: 20rem;
-    margin: 5rem 0 18rem 0;
+    margin: 5rem 0 20rem 14rem;
   }
 
   .about-img {
@@ -603,7 +603,7 @@ footer {
 
   .about-header {
     width: 42%;
-    margin: -18rem 0 5rem 35rem; /* Why -18rem? */
+    margin: -18.5rem 0 5rem 36rem; /* Why -18.5rem? */
     padding: 2rem;
     background: hsl(0, 0%, 100%);
     position: relative;
@@ -616,7 +616,7 @@ footer {
   }
 
   .about p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     text-align: left;
     margin-left: 4.5rem;
@@ -720,11 +720,12 @@ footer {
 
   .creations-link {
     display: flex;
+    align-items: center;
   }
 
   .creations-link button {
-    width: 100%;
-    margin-left: 5rem;
+    width: 50%;
+    margin-left: 21rem;
   }
 
   .button-container-mobile {
@@ -736,13 +737,14 @@ footer {
   }
 
   .button-container-desktop button:hover {
-    background-color: hsl(0, 0%, 0%);
+    background-color: var(--very-dark-grey);
+    color: var(--white);
     border-color: none;
     transition: all 1000ms ease;
   }
 
   .button-container-desktop a:hover {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
     transition: all 1000ms ease;
   }
 
@@ -750,6 +752,10 @@ footer {
   footer {
     height: 10rem;
     max-width: 100%;
+  }
+
+  .footer-info {
+    margin-left: 8rem;
   }
 
   .footer-image .logo-image {
@@ -792,13 +798,13 @@ footer {
   .social-media {
     letter-spacing: 0.75rem;
     width: 12%;
-    margin: -7rem 0 0 66rem;
+    margin: -7rem 0 0 72rem;
   }
 
   /* Copyright */
   .copyright {
     width: 20%;
-    margin: 1rem 0 0 60rem;
+    margin: 1rem 0 0 67rem;
   }
 
   .copyright h5 {
