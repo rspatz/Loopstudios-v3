@@ -613,4 +613,199 @@ footer {
     text-align: left;
     margin-left: 4.5rem;
   }
+
+  /* Creations */
+  .creations {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .creations h3 {
+    width: 30%;
+    margin: 3rem 10rem;
+    text-align: left;
+  }
+
+  /* Images Section */
+  .images {
+    width: 90%;
+    flex-direction: column;
+    margin: 0 10rem;
+  }
+
+  .images h4 {
+    width: 80%;
+    margin: 15rem auto;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .box1 {
+    background: url(../images/desktop/image-deep-earth.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 90%;
+  }
+
+  .box2 {
+    background: url(../images/desktop/image-night-arcade.jpg);
+    background-size: cover;
+  }
+
+  .box3 {
+    background: url(../images/desktop/image-soccer-team.jpg);
+    background-size: cover;
+  }
+
+  .box4 {
+    background: url(../images/desktop/image-grid.jpg);
+    background-size: cover;
+  }
+
+  .box5 {
+    background: url(../images/desktop/image-from-above.jpg);
+    background-size: cover;
+  }
+
+  .box6 {
+    background: url(../images/desktop/image-pocket-borealis.jpg);
+    background-size: cover;
+  }
+
+  .box7 {
+    background: url(../images/desktop/image-curiosity.jpg);
+    background-size: cover;
+  }
+
+  .box8 {
+    background: url(../images/desktop/image-fisheye.jpg);
+    background-size: cover;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .box8 {
+    height: 25rem;
+    width: 25%;
+    margin: 0 2rem 2rem 0;
+  }
+
+  .images-set1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+
+  .images-set2 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+
+  button {
+    width: 15%;
+  }
+
+  .creations-link {
+    display: flex;
+  }
+
+  .creations-link button {
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .button-container-mobile {
+    visibility: hidden;
+  }
+
+  .button-container-desktop {
+    visibility: visible;
+  }
+
+  .button-container-desktop button:hover {
+    background-color: hsl(0, 0%, 0%);
+    border-color: none;
+    transition: all 1000ms ease;
+  }
+
+  .button-container-desktop a:hover {
+    color: hsl(0, 0%, 100%);
+    transition: all 1000ms ease;
+  }
+
+  /* Footer */
+  footer {
+    height: 10rem;
+    max-width: 100%;
+  }
+
+  .footer-image .logo-image {
+    width: 15%;
+    margin: 2rem 0 0 7rem;
+  }
+
+  .footer-nav {
+    margin: 0 0 0 5rem;
+  }
+
+  .footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    margin: 1rem 0;
+    line-height: 3rem;
+  }
+
+  .footer-nav a {
+    font-family: 'Alata-Regular';
+    margin-left: 2rem;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+  }
+
+  .footer-nav a:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 1rem;
+    color: hsl(0, 0%, 100%);
+    transition: all 1000ms ease;
+  }
+
+  .footer a {
+    text-decoration: none;
+  }
+
+  /* Social Media Icons */
+  .social-media {
+    letter-spacing: 0.75rem;
+    width: 12%;
+    margin: -7rem 0 0 66rem;
+  }
+
+  /* Copyright */
+  .copyright {
+    width: 20%;
+    margin: 1rem 0 0 60rem;
+  }
+
+  .copyright h5 {
+    font-family: 'Alata-Regular';
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 55%);
+    margin: 0;
+  }
+
+  /* Attribution */
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 }
