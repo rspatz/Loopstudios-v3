@@ -7,6 +7,8 @@
 /* Colors */
 :root {
   --very-dark-grey: #101010;
+  --light-grey: #f1f1f1;
+  --dark-blue: #3e52a3;
   --white: #fff;
 }
 
@@ -100,7 +102,7 @@ header {
 .navigation-nav li a {
   font-family: 'JosefinSans-Regular';
   font-size: 0.9rem;
-  color: hsl(0, 0%, 55%);
+  color: var(--white);
 }
 
 /* Mobile Navigation */
@@ -114,7 +116,7 @@ header {
 .navigation-icon::after {
   width: 2rem;
   height: 1.75px;
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   display: flex;
 }
 
@@ -186,7 +188,7 @@ header {
   font-size: 1.25rem;
   font-weight: 300;
   padding: 0 2rem;
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   text-transform: uppercase;
   background-size: 220%;
@@ -201,7 +203,7 @@ header {
 .navigation-link:hover,
 .navigation-link:active {
   background-position: 100%;
-  color: hsl(0, 0%, 55%);
+  color: var(--light-grey);
   transform: translateX(1rem);
 }
 
@@ -226,7 +228,7 @@ header {
   position: fixed;
   top: 6.5rem;
   right: 0;
-  background: hsl(0, 0%, 0%);
+  background: var(--dark-grey);
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
@@ -301,7 +303,7 @@ header {
   font-size: 1.15rem;
   line-height: 2rem;
   width: 85%;
-  color: hsl(0, 0%, 55%);
+  color: var(--light-grey);
   margin: 1rem auto;
   text-align: center;
 }
@@ -319,7 +321,7 @@ header {
 
 .images h4 {
   width: 40%;
-  color: hsl(0, 0%, 100%);
+  color: var(--white);
 }
 
 /* Images Section */
@@ -387,7 +389,7 @@ header {
 }
 
 button {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   width: 50%;
   padding: 0.75rem 2rem;
   border: solid 2px hsl(0, 0%, 0%);
@@ -414,7 +416,7 @@ button {
 footer {
   height: 35rem;
   padding: 0;
-  background: hsl(0, 0%, 0%);
+  background-color: var(--very-dark-grey);
 }
 
 .footer-image .logo-image {
@@ -431,12 +433,12 @@ footer {
 .footer-nav a {
   font-family: 'Alata-Regular';
   font-size: 1.15rem;
-  color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   text-decoration: none;
 }
 
 .footer-nav a:hover {
-  color: hsl(0, 0%, 55%);
+  color: var(--light-grey);
 }
 
 .footer a {
@@ -460,7 +462,7 @@ footer {
 .copyright h5 {
   font-size: 1rem;
   letter-spacing: 0.01rem;
-  color: hsl(0, 0%, 55%);
+  color: var(--light-grey);
 }
 
 /* Attribution */
@@ -469,5 +471,5 @@ footer {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-blue);
 }
