@@ -309,6 +309,7 @@ header {
   text-align: center;
 }
 
+/* Creations Section */
 .creations {
   display: flex;
   flex-direction: column;
@@ -411,6 +412,10 @@ button {
 
 .button-container-mobile button {
   width: 75%;
+}
+
+.team {
+  height: 45rem;
 }
 
 /* Footer */
