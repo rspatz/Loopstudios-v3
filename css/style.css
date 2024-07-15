@@ -416,7 +416,7 @@ button {
 
 /* Advantage Section */
 .advantage {
-  height: 45rem;
+  height: 2rem;
   width: 90%;
   margin: 35rem auto;
 }
@@ -429,6 +429,17 @@ button {
 .advantage p {
   color: var(--white);
   text-align: center;
+  margin-top: 5rem;
+}
+
+.advantage h4 {
+  line-height: 2.5rem;
+}
+
+.advantage p {
+  width: 70%;
+  margin: 1rem 0 0 3rem;
+  line-height: 1.5rem;
 }
 
 .card-wrapper {
@@ -440,13 +451,12 @@ button {
 .card-3 {
   height: 25rem;
   width: 30%;
-  background: red;
   margin: 5rem;
   border-radius: 10px;
 }
 
 .card-1 {
-  background: linear-gradient(rgba(16, 16, 16, 0.35), rgba(16, 16, 16, 0.35)),
+  background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 0.6)),
     url('../images/about/dylan-gillis-KdeqA3aTnBY-unsplash-opt.jpg') no-repeat 0
       0;
   background-size: cover;
@@ -454,7 +464,7 @@ button {
 }
 
 .card-2 {
-  background: linear-gradient(rgba(16, 16, 16, 0.35), rgba(16, 16, 16, 0.35)),
+  background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 0.6)),
     url('../images/about/michael-schiffer-9CSGSq_7UrA-unsplash-opt.jpg')
       no-repeat 0 0;
   background-size: cover;
@@ -462,7 +472,7 @@ button {
 }
 
 .card-3 {
-  background: linear-gradient(rgba(16, 16, 16, 0.35), rgba(16, 16, 16, 0.35)),
+  background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 0.6)),
     url('../images/about/patrick-tomasso-fMntI8HAAB8-unsplash-opt.jpg')
       no-repeat 0 0;
   background-size: cover;
@@ -525,9 +535,10 @@ footer {
 .attribution {
   font-size: 11px;
   text-align: center;
+  background-color: var(--very-dark-grey);
 }
 .attribution a {
-  color: var(--dark-blue);
+  color: var(--light-grey);
 }
 
 /* Widescreen Media Queries */
@@ -874,8 +885,5 @@ footer {
   .attribution {
     font-size: 11px;
     text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
   }
 }
