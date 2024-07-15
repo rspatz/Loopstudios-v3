@@ -479,6 +479,37 @@ button {
   background-position: top right;
 }
 
+/* Jobs Section */
+.jobs {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.jobs h3,
+.jobs h4 {
+  font-family: 'Alata-Regular';
+  opacity: 75%;
+  margin: 3rem 0 0 0;
+}
+
+.jobs h3 {
+  font-size: 2.5rem;
+}
+
+.jobs p {
+  font-family: 'Alata-Regular';
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  opacity: 75%;
+}
+
+.jobs ul {
+  font-family: 'Alata-Regular';
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  opacity: 75%;
+}
+
 /* Footer */
 footer {
   height: 35rem;
