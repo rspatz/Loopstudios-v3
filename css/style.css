@@ -56,7 +56,7 @@ h2 {
 
 h3 {
   font-family: 'JosefinSans-Thin';
-  font-size: 2.45rem;
+  font-size: 1.45rem;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
 }
@@ -414,8 +414,59 @@ button {
   width: 75%;
 }
 
-.team {
+/* Advantage Section */
+.advantage {
   height: 45rem;
+  width: 90%;
+  margin: 35rem auto;
+}
+
+.advantage h2 {
+  text-align: center;
+}
+
+.advantage h4,
+.advantage p {
+  color: var(--white);
+  text-align: center;
+}
+
+.card-wrapper {
+  display: flex;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  height: 25rem;
+  width: 30%;
+  background: red;
+  margin: 5rem;
+  border-radius: 10px;
+}
+
+.card-1 {
+  background: linear-gradient(rgba(16, 16, 16, 0.35), rgba(16, 16, 16, 0.35)),
+    url('../images/about/dylan-gillis-KdeqA3aTnBY-unsplash-opt.jpg') no-repeat 0
+      0;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-2 {
+  background: linear-gradient(rgba(16, 16, 16, 0.35), rgba(16, 16, 16, 0.35)),
+    url('../images/about/michael-schiffer-9CSGSq_7UrA-unsplash-opt.jpg')
+      no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-3 {
+  background: linear-gradient(rgba(16, 16, 16, 0.35), rgba(16, 16, 16, 0.35)),
+    url('../images/about/patrick-tomasso-fMntI8HAAB8-unsplash-opt.jpg')
+      no-repeat 0 0;
+  background-size: cover;
+  background-position: top right;
 }
 
 /* Footer */
