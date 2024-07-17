@@ -581,11 +581,15 @@ footer {
   /* Header */
   header,
   .header-about,
-  .header-careers {
+  .header-careers,
+  .header-products {
     max-width: 100%;
     height: 40rem;
     padding: 2.25rem;
     margin-bottom: 0;
+  }
+
+  header {
     background: url(../images/desktop/image-hero.jpg);
     background-size: cover;
   }
@@ -599,6 +603,12 @@ footer {
   .header-careers {
     background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 0.6)),
       url(../images/adrian-deweerdt-kJ2xdKJZZ9k-unsplash.jpg);
+  }
+
+  .header-products {
+    background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 0.6)),
+      url(../images/vincent-guth-uhoILl3HUZM-unsplash-opt.jpg);
+    background-size: cover;
   }
 
   .title-container {
