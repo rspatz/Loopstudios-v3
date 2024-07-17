@@ -609,7 +609,7 @@ footer {
 /* Social Media Icons */
 .social-media {
   letter-spacing: 0.75rem;
-  width: 40%;
+  width: 35%;
   margin: 2rem auto;
 }
 
@@ -622,6 +622,7 @@ footer {
 
 .copyright h5 {
   font-size: 1rem;
+  text-align: center;
   letter-spacing: 0.01rem;
   color: var(--light-grey);
 }
