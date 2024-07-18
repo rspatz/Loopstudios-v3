@@ -671,14 +671,6 @@ footer {
     padding: 1rem;
   }
 
-  /* .title-background {
-    width: 100%;
-    height: 15rem;
-    padding: 1rem;
-    border: 2px solid white;
-    margin: 12rem auto;
-  } */
-
   h1 {
     font-size: 3.75rem;
     line-height: 4rem;
@@ -705,7 +697,7 @@ footer {
   .navigation-nav {
     height: 1rem;
     opacity: 1;
-    margin: 1rem 0 0 45rem;
+    margin: 1rem 0 0 40rem;
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -799,13 +791,13 @@ footer {
 
   /* Products Section */
   .products {
-    height: 100rem;
+    height: 120rem;
     margin: 5rem 0 20rem 14rem;
   }
 
   .products-img {
     width: 50%;
-    margin: 3rem 1.3rem 3rem 1.5rem; /* Could not get 'margin: 3rem auto' to center image */
+    margin: 8rem 1.3rem 3rem 1.5rem; /* Could not get 'margin: 3rem auto' to center image */
     position: relative;
     z-index: 1;
   }
