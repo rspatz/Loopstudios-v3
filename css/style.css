@@ -375,7 +375,7 @@ header,
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: 2rem auto;
+  margin: 25rem auto;
 }
 
 .creations h3 {
@@ -898,7 +898,7 @@ footer {
   .box8 {
     height: 25rem;
     width: 25%;
-    margin: 0 2rem 2rem 0;
+    margin: 0rem 2rem 2rem 0;
   }
 
   .images-set1 {
