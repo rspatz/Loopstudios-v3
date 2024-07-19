@@ -311,7 +311,7 @@ header,
 
 /* About Section */
 .about {
-  height: 25rem;
+  height: 20rem;
   margin-bottom: 0;
 }
 
@@ -376,6 +376,7 @@ header,
   flex-direction: column;
   width: 90%;
   margin: 25rem auto;
+  margin-bottom: 5rem;
 }
 
 .creations h3 {
@@ -612,7 +613,7 @@ footer {
 /* Social Media Icons */
 .social-media {
   letter-spacing: 0.75rem;
-  width: 35%;
+  width: 45%;
   margin: 2rem auto;
 }
 
