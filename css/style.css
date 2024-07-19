@@ -988,6 +988,12 @@ footer {
     margin: 5rem;
   }
 
+  /* Jobs Section */
+  .jobs {
+    width: 80%;
+    margin: 5rem auto;
+  }
+
   /* Footer */
   footer {
     height: 10rem;
