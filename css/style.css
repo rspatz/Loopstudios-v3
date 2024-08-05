@@ -577,6 +577,79 @@ button {
   list-style: circle;
 }
 
+/* Slideshow Section */
+.Container {
+  flex-direction: row;
+}
+
+.info-left {
+  height: 25rem;
+  background-color: var(--bg-black);
+  color: var(--white);
+  margin-right: -25rem;
+  width: 60%;
+  z-index: 1000;
+}
+
+.info-left h2 {
+  font-family: 'Commissioner-Regular';
+  margin: 6rem 0 2rem 8rem;
+  width: 60%;
+}
+
+.image-right-1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)),
+    url('../assets/desktop/image-slide-1.jpg') no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 35rem;
+  width: 75%;
+  margin-left: 10rem;
+}
+
+.image-right-2 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)),
+    url('../assets/desktop/image-slide-2.jpg') no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 35rem;
+  width: 75%;
+  margin-left: 10rem;
+}
+
+.image-right-3 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)),
+    url('../assets/desktop/image-slide-3.jpg') no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 35rem;
+  width: 75%;
+  margin-left: 10rem;
+}
+
+.image-text {
+  font-family: 'Commissioner-ExtraBold';
+  margin: 30rem 0 0 45rem;
+  color: var(--white);
+}
+
+.slideshow-controls {
+  margin: 1rem 6rem;
+}
+
+.back {
+  margin: 5rem 0 0 1rem;
+}
+
+.back,
+.forward {
+  color: var(--red);
+}
+
+.image-right {
+  margin-left: 5rem;
+}
+
 /* Footer */
 footer {
   height: 35rem;
