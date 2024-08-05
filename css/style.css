@@ -587,6 +587,8 @@ button {
 /* Slideshow Section */
 .Container {
   flex-direction: row;
+  width: 90%;
+  margin: 15rem 0;
 }
 
 .info-left {
@@ -599,14 +601,17 @@ button {
 }
 
 .info-left h2 {
-  font-family: 'Commissioner-Regular';
   margin: 6rem 0 2rem 8rem;
-  width: 60%;
+  width: 40%;
+}
+
+.back svg {
+  fill: var(--dark-blue);
 }
 
 .image-right-1 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)),
-    url('../assets/desktop/image-slide-1.jpg') no-repeat;
+    url('../images/paul-hanaoka-nEKGwIRFeYc-unsplash.jpg') no-repeat;
   background-size: cover;
   background-position: bottom;
   height: 35rem;
@@ -614,9 +619,16 @@ button {
   margin-left: 10rem;
 }
 
+.image-right-1 h4,
+.image-right-2 h4,
+.image-right-3 h4 {
+  color: var(--white);
+  font-size: var(--h2);
+}
+
 .image-right-2 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)),
-    url('../assets/desktop/image-slide-2.jpg') no-repeat;
+    url('../images/paul-hanaoka-6FqkGMOLskY-unsplash.jpg') no-repeat;
   background-size: cover;
   background-position: bottom;
   height: 35rem;
@@ -626,7 +638,7 @@ button {
 
 .image-right-3 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)),
-    url('../assets/desktop/image-slide-3.jpg') no-repeat;
+    url('../images/dan-taylor-ckB5dHbCsCM-unsplash.jpg') no-repeat;
   background-size: cover;
   background-position: bottom;
   height: 35rem;
@@ -636,7 +648,8 @@ button {
 
 .image-text {
   font-family: 'Commissioner-ExtraBold';
-  margin: 30rem 0 0 45rem;
+  width: 100%;
+  margin: 30rem 0 0 25rem;
   color: var(--white);
 }
 
@@ -646,11 +659,6 @@ button {
 
 .back {
   margin: 5rem 0 0 1rem;
-}
-
-.back,
-.forward {
-  color: var(--red);
 }
 
 .image-right {
