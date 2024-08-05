@@ -522,6 +522,13 @@ button {
   height: 25rem;
   width: 90%;
   margin: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  filter: brightness(70%);
 }
 
 .card-1 {
@@ -586,8 +593,9 @@ button {
 
 /* Slideshow Section */
 .Container {
-  flex-direction: row;
-  width: 90%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   margin: 15rem 0;
 }
 
@@ -595,17 +603,20 @@ button {
   height: 25rem;
   background-color: var(--bg-black);
   color: var(--white);
-  margin-right: -25rem;
+  margin-right: 0rem;
   width: 60%;
   z-index: 1000;
 }
 
 .info-left h2 {
-  margin: 6rem 0 2rem 8rem;
-  width: 40%;
+  margin: 6rem 0 2rem 4rem;
+  text-align: center;
+  width: 90%;
 }
 
 .back svg {
+  /* filter: invert(33%) sepia(11%) saturate(3064%) hue-rotate(191deg)
+    brightness(94%) contrast(96%); */
   fill: var(--dark-blue);
 }
 
@@ -615,8 +626,16 @@ button {
   background-size: cover;
   background-position: bottom;
   height: 35rem;
-  width: 75%;
-  margin-left: 10rem;
+  width: 100%;
+  margin-left: 0;
+}
+
+.image-right-1 h3,
+.image-right-2 h3,
+.image-right-3 h3 {
+  color: var(--white);
+  font-size: var(--h2);
+  margin-left: 2rem;
 }
 
 .image-right-1 h4,
@@ -624,6 +643,7 @@ button {
 .image-right-3 h4 {
   color: var(--white);
   font-size: var(--h2);
+  margin-left: 2rem;
 }
 
 .image-right-2 {
@@ -632,8 +652,8 @@ button {
   background-size: cover;
   background-position: bottom;
   height: 35rem;
-  width: 75%;
-  margin-left: 10rem;
+  width: 100%;
+  margin-left: 0;
 }
 
 .image-right-3 {
@@ -642,27 +662,28 @@ button {
   background-size: cover;
   background-position: bottom;
   height: 35rem;
-  width: 75%;
-  margin-left: 10rem;
+  width: 100%;
+  margin-left: 0;
 }
 
 .image-text {
   font-family: 'Commissioner-ExtraBold';
   width: 100%;
-  margin: 30rem 0 0 25rem;
+  margin: 30rem 0 0 0;
   color: var(--white);
 }
 
 .slideshow-controls {
-  margin: 1rem 6rem;
+  margin: 0 5rem;
+  width: 70%;
 }
 
 .back {
-  margin: 5rem 0 0 1rem;
+  margin: 1rem 0 0 1rem;
 }
 
 .image-right {
-  margin-left: 5rem;
+  margin-left: 0;
 }
 
 /* Footer */
@@ -731,6 +752,61 @@ footer {
 
 /* Widescreen Media Queries */
 @media only screen and (min-width: 1200px) {
+  /* Slideshow Section */
+  .Container {
+    flex-direction: row;
+  }
+
+  .info-left {
+    height: 25rem;
+    background-color: var(--bg-black);
+    color: var(--white);
+    margin-right: 1;
+    width: 90%;
+  }
+
+  .info-left h2 {
+    margin: 2rem 0;
+    width: 80%;
+  }
+
+  .image-right-1 {
+    height: 35rem;
+    width: 75%;
+    margin-left: 10rem;
+  }
+
+  .image-right-2 {
+    height: 35rem;
+    width: 75%;
+    margin-left: 10rem;
+  }
+
+  .image-right-3 {
+    height: 35rem;
+    width: 75%;
+    margin-left: 10rem;
+  }
+
+  .image-text {
+    font-family: 'Commissioner-ExtraBold';
+    width: 100%;
+    margin: 30rem 0 0 25rem;
+    color: var(--white);
+  }
+
+  .slideshow-controls {
+    margin: 1rem 6rem;
+  }
+
+  .back {
+    margin: 5rem 0 0 1rem;
+  }
+
+  .image-right {
+    margin-left: 5rem;
+  }
+
   /* Header */
   header,
   .header-about,
