@@ -86,13 +86,15 @@ header {
   margin-bottom: 4rem;
   background: url(../images/mobile/image-hero.jpg);
   background-size: cover;
+  background-position: bottom;
 }
 
 header,
 .header-about,
 .header-careers,
 .header-products,
-.header-events {
+.header-events,
+.header-support {
   max-width: 100%;
   height: 40rem;
   padding: 2.25rem;
@@ -313,6 +315,12 @@ header,
 .header-products {
   background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 0.6)),
     url(../images/vincent-guth-uhoILl3HUZM-unsplash-opt.jpg);
+  background-size: cover;
+}
+
+.header-support {
+  background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 0.6)),
+    url(../images/xr-expo-ipDhOQ5gtEk-unsplash.jpg);
   background-size: cover;
 }
 
@@ -596,7 +604,7 @@ button {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 15rem 0;
+  margin: 5rem 0;
 }
 
 .info-left {
@@ -614,10 +622,11 @@ button {
   width: 100%;
 }
 
-.back svg {
+svg {
   /* filter: invert(33%) sepia(11%) saturate(3064%) hue-rotate(191deg)
     brightness(94%) contrast(96%); */
   fill: var(--dark-blue);
+  height: 4rem;
 }
 
 .image-right-1 {
@@ -758,11 +767,11 @@ footer {
   }
 
   .info-left {
-    height: 25rem;
+    height: 15rem;
     background-color: var(--bg-black);
     color: var(--white);
     margin-right: 1rem;
-    width: 90%;
+    width: 50%;
   }
 
   .info-left h2 {
@@ -797,7 +806,7 @@ footer {
   }
 
   .slideshow-controls {
-    margin: 1rem 11em;
+    margin: 1rem 12em;
   }
 
   .back {
@@ -809,11 +818,17 @@ footer {
   }
 
   /* Header */
+  .header {
+    background: url(../images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-position: top;
+  }
   header,
   .header-about,
   .header-careers,
   .header-products,
-  .header-events {
+  .header-events,
+  .header-support {
     max-width: 100%;
     height: 40rem;
     padding: 2.25rem;
