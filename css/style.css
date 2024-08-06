@@ -753,6 +753,7 @@ svg {
 
 .image-text {
   font-family: 'Commissioner-ExtraBold';
+  font-size: 2rem;
   width: 100%;
   margin: 30rem 0 0 0;
   color: var(--white);
