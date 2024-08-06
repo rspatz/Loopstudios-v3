@@ -1,6 +1,6 @@
 # Frontend Mentor - Loopstudios landing page solution
 
-This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -20,6 +20,8 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ## Overview
 
+With this project, I decided to take what was supposed to be a landing page for Loopstudios, a fictional Virtual Reality company, and turn it into a 6-page website.
+
 ### The challenge
 
 Users should be able to:
@@ -33,7 +35,7 @@ Users should be able to:
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
@@ -42,41 +44,44 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://rspatz.github.io/Loopstudios-v3/)
 
 ## My process
+
+First, I marked up the landing page with semantic HTML5, then I created the style sheet, reset the browser's styles, and created some custom CSS properties, then styled the different sections of the page with a mobile-first approach, using Flexbox. When I was satisfied with the page, I decided to build out pages from the other links, following the design established in the landing page, and adding new features to the project. I used free stock images from unsplash, optimized in Affinity Photo 2, and SVGs from Font Awesome. For the events page, I created a slideshow to showcase events, using Vanilla JS.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Vanilla JavaScript
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This was the second time I have tried to build out a website using a mobile-first approach. I'm used to building out the widescreen version first, followed by media queries for the mobile, so it sometimes felt odd, as if I was working backwards. I sometimes ran into issues where the mobile code took precedence over the desktop version, and it changed the design for the widescreen. I had fewer of those issues than I encountered when I tried it the first time, however. Sometimes I forgot that I had to declare 'display: flex' in the mobile version, then change the 'flex-direction' for the widescreen version.
+
+This is also the first time I have taken a one-page project and turned it into a multi-page website with more features than were expected. I have completed many design courses at two colleges, so I felt confident taking the existing figma design and expanding it, and my initial experience with this was good. In a future job, if I'm handed off a figma design that isn't complete, I will feel confident that I can tackle the missing parts, because of my design skills, and this experience.
+
+![](./screenshot.jpg)
 
 To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log('🎉');
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.

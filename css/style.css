@@ -695,6 +695,7 @@ button {
   margin: 6rem 0 2rem 1rem;
   text-align: center;
   width: 100%;
+  color: var(--dark-blue);
 }
 
 svg {
