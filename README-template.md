@@ -64,7 +64,7 @@ This was the second time I have tried to build out a website using a mobile-firs
 
 This is also the first time I have taken a one-page project and turned it into a multi-page website with more features than were expected. I have completed many design courses at two colleges, so I felt confident taking the existing figma design and expanding it, and my initial experience with this was good. In a future job, if I'm handed off a figma design that isn't complete, I will feel confident that I can tackle the missing parts, because of my design skills, and this experience.
 
-(./images/Screenshot 2024-08-06 at 08-45-33 Loopstudios Version 3 About.jpg)
+![About Page](./relative/path/to/images/Screenshot 2024-08-06 at 08-45-33 Loopstudios Version 3 About.jpg)
 
 To see how you can add code snippets, see below:
 
